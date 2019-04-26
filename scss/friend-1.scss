@@ -1,0 +1,92 @@
+.container{
+    .title{
+
+        p{
+            text-align: center;
+            margin: auto;
+            font-size: .33rem;
+            margin-top: .1rem;
+            color: white;
+            span{
+                color: #fff000;
+            }
+        
+        }
+    }
+    .list-2{
+        margin:1.12rem 0 0 .37rem;
+        color: white;
+        font-size: .22rem;
+        font-weight: lighter;
+        
+    }
+    .friend-appraise{
+      position: relative;
+      width: 100%;
+      height: 2.38rem;
+      
+        .in-list{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            background-color: #fff000;
+            width: 1.90rem;
+            height: .63rem;
+            text-align: center;
+            line-height: .63rem;
+            border-radius: .63rem;
+            transform: translate(-80%,50%);   
+            &:nth-child(2){
+                transform: translate(0%,-150%)  scale(.8,.8);
+                opacity: .5;   
+                filter:grayscale(.9) ;
+            }
+            &:nth-child(3){
+                transform: translate(50%,150%)  scale(.8,.8);
+                opacity: .5;   
+                filter:grayscale(.0) ;
+
+            }
+            &:nth-child(4){
+                transform: translate(-150%,-100%)  scale(.8,.8);
+                opacity: .7;   
+                filter:grayscale(.0) ;
+
+
+            }
+      }
+    }
+    .rely{
+        margin:auto;
+        margin-top: .50rem;
+        width: 5.01rem;
+        // margin: auto;
+        color: white;
+        textarea{
+            resize: none;
+            width: 100%;
+            height: .77rem;
+            background:none;
+            border:.01rem solid white;
+            color: white;
+            
+        }
+        .button{
+            display: flex;
+        justify-content: space-around;
+        margin-bottom:1.2rem ;
+            button{
+            width: 1.48rem;
+            height: .51rem;
+            font-family: 'chunlian';
+            background-color: #deff00;
+            border: none;
+            border-radius: .10rem;
+            font-size: .26rem;
+        }
+            
+        }
+        
+    }
+    
+}

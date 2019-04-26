@@ -1,0 +1,90 @@
+.container{
+    // .question-h{
+    //     color: white;
+    //     font-family: 'chunlian';
+    //     margin: 1.01rem 0 0 .43rem;
+    //     font-size: .33rem;
+    // }
+    .question-im{
+        display: flex;
+        width: 3.83rem;
+        height: 3.84rem;
+        margin: .4rem auto 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        // justify-items: center;
+        align-items: center;
+        img{
+            width: 44%;
+            height:40%;
+            margin-bottom: 5%;
+        }
+        
+    }
+    .question-list{
+        position: absolute;
+        top: 6.78rem;
+        left: .58rem;
+        // background-color: white;
+        width: 3.76rem;
+        height: 3.4rem;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .list{
+            width: 100%;
+            height: .77rem;
+            background: url(../images/question/buttom.png) no-repeat ;
+            background-size: contain;
+            text-align: center;
+            line-height: .5rem;
+            &:hover{
+                background-image: url(../images/question/button-insure.png)
+                
+            }
+            
+        }
+        
+    }
+    .music-dog{
+        position: absolute;
+        top:7.31rem;
+        right: .2rem;
+        .dog{
+            width: .78rem;
+            height: .93rem;
+            background:url(../images/question/animation/1.png) no-repeat;
+            background-position: 50%;
+            background-size: contain;
+            transform: translate(-.63rem,-.80rem);
+            animation: kg 2.3s steps(1, end) infinite;
+        }
+    }
+
+}
+@mixin keyframes($animationName) {
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+$baseV:100/10;
+
+@include keyframes(kg) {
+    @for $i from 1 through  9 {
+        #{$baseV*$i/100*100%} {    
+            background: url("../images/question/animation/#{$i}.png") no-repeat center center;
+            background-size: contain;
+        }
+    }
+}
+
+
+// @keyframes dogmove{
+//     @for $i from 1 to 11{
+//         %#{100-100/$i}{
+
+//         }
+//     }
+    
+// }

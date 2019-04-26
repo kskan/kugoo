@@ -1,0 +1,51 @@
+.container .finnal-test {
+  background: url(../images/finnal/list-b.png) no-repeat;
+  width: 5.48rem;
+  height: 8.5rem;
+  margin: .71rem auto 0;
+  background-size: contain;
+  text-align: center;
+  position: relative;
+}
+
+.container .finnal-test p.title {
+  font-size: .57rem;
+  transform: translate(0, 0.83rem);
+  color: #f6ff00;
+  text-shadow: .01rem .01rem   0.01rem   black;
+}
+
+.container .finnal-test p:nth-child(2) {
+  font-size: .37rem;
+  color: white;
+  transform: translate(0, 0.52rem);
+  line-height: .70rem;
+  text-shadow: .01rem .01rem  0.5rem   black;
+}
+
+.container .finnal-test p:nth-child(2) span {
+  color: greenyellow;
+}
+
+.container .finnal-test button {
+  position: absolute;
+  bottom: .76rem;
+  right: .65rem;
+  width: 1.97rem;
+  height: .79rem;
+  font-size: .3rem;
+  box-shadow: .05rem .05rem .01rem black;
+  font-family: 'chunlian';
+  background-color: #deff00;
+  border-radius: .2rem;
+}
+
+.container .people {
+  position: absolute;
+  top: 7.41rem;
+  left: 1.16rem;
+}
+
+.container .people img {
+  width: 2.64rem;
+}

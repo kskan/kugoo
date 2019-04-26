@@ -1,0 +1,38 @@
+.container{
+    // .question-h{
+    //     color: white;
+    //     font-family: 'chunlian';
+    //     margin: 1.01rem 0 0 .43rem;
+    //     font-size: .33rem;
+    // }
+    .question-im{
+        display: flex;
+        width: 3.83rem;
+        height: 3.84rem;
+        margin: .4rem auto 0 auto;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-items: center;
+        img{
+            width: 80%;
+            height:100%;
+            
+        }
+    }
+        .question-list{
+     
+    
+            .list{
+                box-sizing: border-box;
+                padding-left: .30rem;
+                text-align: left;
+                line-height: .5rem;
+                &:hover{
+                    background-image: url(../images/question/button-insure.png)
+                    
+                }
+            }
+                
+            
+    }
+        }

@@ -1,0 +1,107 @@
+/*
+设置
+*/
+$white:#ffffff;
+@font-face {
+    font-family:'chunlian';
+    src: url(../font/字魂45号-冰宇雅宋.ttf);
+}
+
+body{
+    background: url(../images/background.png) no-repeat;
+    background-size:100%; 
+    
+}
+.container{
+    .logo{
+      margin: .49rem 0 0 .42rem;
+      img{
+          width: 1.09rem;
+          height: .38rem;
+      }
+    }
+    .title{
+        margin: .83rem  auto  0  auto;
+        width: 5.75rem;
+            height: 2.38rem;
+        img{
+            width: 5.75rem;
+            height: 2.38rem;
+        }
+    }
+    .title2{
+        margin: auto;
+        width: 3.52rem;
+        img{
+            width: 3.52rem;
+            height: .62rem;
+        }
+        transform: translate(0,-.05rem);
+    }
+    .title3{
+        margin: auto;
+        width:3.34rem;
+       img{
+        width:3.34rem;
+        height: .30rem;
+       }
+    }
+    .content{
+        position: relative;
+        .con-in{
+            margin:  .94rem auto 0; 
+            width: 3.39rem;
+            img{
+                width: 3.39rem;
+                height: 4.21rem;
+            }
+            p{
+                button{
+                    width: 1.67rem;
+                    height: .70rem;
+                    background-color: #ffb800;
+                    border: 1px solid black;
+                    border-radius: .2rem;
+                    margin: auto;
+                    display: block;
+                    font-size: .3rem;
+                    font-family: 'chunlian';
+                }
+            }
+        }
+        .message{
+            img{
+                position: absolute;
+                display: block;
+                // top:0; 
+            }
+            img:nth-child(1){
+                top: .68rem;
+                left: .54rem;
+                width: .96rem;
+            }
+            img:nth-child(2){
+                bottom: .7rem;
+                right: .80rem;
+                width: 1.02rem;
+            }
+            img:nth-child(3){
+                top:.73rem;
+                right: .9rem;
+                width: 1.44rem;
+            }
+            img:nth-child(4){
+                bottom: .54rem;
+                left: .56rem;
+                width: 1.35rem;
+                
+            }
+            img:nth-child(5){
+                top:-1.5rem;
+                right: 1rem;
+                width: 2.2rem;
+            
+            }
+        }
+    }
+}

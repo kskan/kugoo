@@ -1,0 +1,25 @@
+.container .question-im {
+  display: flex;
+  width: 3.83rem;
+  height: 3.84rem;
+  margin: .4rem auto 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-items: center;
+}
+
+.container .question-im img {
+  width: 80%;
+  height: 100%;
+}
+
+.container .question-list .list {
+  box-sizing: border-box;
+  padding-left: .30rem;
+  text-align: left;
+  line-height: .5rem;
+}
+
+.container .question-list .list:hover {
+  background-image: url(../images/question/button-insure.png);
+}
